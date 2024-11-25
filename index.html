@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setup Listing</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1></h1> <!-- Le titre du header sera inséré dynamiquement -->
+    </header>
+
+    <!-- Section des illustrations -->
+    <section class="illustrations">
+        <h2></h2> <!-- Le titre de cette section sera inséré dynamiquement -->
+        <div class="illustrations-grid">
+            <!-- Exemple d'illustration -->
+            <div class="illustration-item">
+                <img src="https://via.placeholder.com/300x200" alt="Exemple de bureau 1">
+                <p>Exemple de bureau 1</p>
+            </div>
+            <div class="illustration-item">
+                <img src="https://via.placeholder.com/300x200" alt="Exemple de bureau 2">
+                <p>Exemple de bureau 2</p>
+            </div>
+            <div class="illustration-item">
+                <img src="https://via.placeholder.com/300x200" alt="Exemple de bureau 3">
+                <p>Exemple de bureau 3</p>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <!-- Section des filtres -->
+        <section class="filters">
+            <h2></h2> <!-- Le titre de cette section sera inséré dynamiquement -->
+            <label for="category">Catégorie :</label>
+            <select id="category">
+                <option value="all">Toutes</option>
+                <option value="keyboard">Claviers</option>
+                <option value="mouse">Souris</option>
+                <option value="monitor">Écrans</option>
+            </select>
+
+            <button id="apply-filters">Appliquer</button>
+        </section>
+
+        <!-- Section des composants -->
+        <section class="components-list">
+            <h2></h2> <!-- Le titre des composants sera inséré dynamiquement -->
+            <p>Chargement des composants...</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mon Setup</p>
+        <div class="social-bar" style="display: none;">
+            <a href="#" id="facebook" target="_blank">Facebook</a>
+            <a href="#" id="twitter" target="_blank">Twitter</a>
+            <a href="#" id="instagram" target="_blank">Instagram</a>
+            <a href="#" id="linkedin" target="_blank">LinkedIn</a>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

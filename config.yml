@@ -1,0 +1,50 @@
+settings:
+  theme_color: "#8000FF"
+  mode: "dark"
+  show_social_bar: true
+
+titles:
+  header: "Mon Setup"
+  illustrations: "Exemples d'installation"
+  filters: "Filtres"
+  components: "Mes composants"
+  enable_titles: true
+
+example_desks:
+  desk_1: 
+    text: "Exemple de bureau 1"
+    image_url: "https://via.placeholder.com/300x200"  # URL de l'image pour exemple 1
+  desk_2: 
+    text: "Exemple de bureau 2"
+    image_url: "https://via.placeholder.com/300x200"  # URL de l'image pour exemple 2
+  desk_3: 
+    text: "Exemple de bureau 3"
+    image_url: "https://via.placeholder.com/300x200"  # URL de l'image pour exemple 3
+
+enable_illustrations: true  # Contrôle l'affichage de la section des illustrations
+
+social_links:
+  facebook: "https://facebook.com/exemple"
+  twitter: "https://twitter.com/exemple"
+  instagram: "https://instagram.com/exemple"
+  linkedin: "https://linkedin.com/exemple"
+
+components:
+  - name: "Clavier mécanique RGB"
+    description: "Un clavier mécanique avec rétroéclairage RGB."
+    price: 120
+    category: "keyboard"
+    image: "https://via.placeholder.com/150"
+    link: "https://exemple.com/clavier"
+  - name: "Souris gaming"
+    description: "Une souris ergonomique pour le gaming."
+    price: 60
+    category: "mouse"
+    image: "https://via.placeholder.com/150"
+    link: "https://exemple.com/souris"
+  - name: "Écran 4K"
+    description: "Un écran UHD idéal pour la productivité et les jeux."
+    price: 300
+    category: "monitor"
+    image: "https://via.placeholder.com/150"
+    link: "https://exemple.com/ecran"
